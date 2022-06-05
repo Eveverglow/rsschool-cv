@@ -8,7 +8,7 @@
 
 ## About me
 
-I'm an opem-minded, curious, and open to new knowledge person. As for my personal qualities, I am responsible, pro-active, and a good team player. I have good communication skills and can make decisions on my own.
+I'm an open-minded, curious, and open to new knowledge person. As for my personal qualities, I am responsible, pro-active, and a good team player. I have good communication skills and can make decisions on my own.
 
 Currently, I am working on the position of an IT copywriter.
 
