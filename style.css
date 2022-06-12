@@ -1,4 +1,13 @@
 header {
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+
+img {
+  margin-right: 30px;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
