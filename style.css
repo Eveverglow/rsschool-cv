@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  margin-right: 30px;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skills-and-languages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.skills,
+.languages,
+.work-experience,
+.contacts,
+.education,
+.projects,
+.container {
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
