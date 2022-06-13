@@ -49,3 +49,25 @@ hr {
   margin: auto;
   background-color: gray;
 }
+
+footer {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-start;
+}
+
+.footer-text {
+  padding-right: 40px;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.logo:hover {
+  width: 140px;
+  height: 70px;
+}
