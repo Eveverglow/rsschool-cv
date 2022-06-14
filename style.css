@@ -1,9 +1,10 @@
 header {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  width: 100%;
+  background: rgb(234, 234, 234);
 }
 
 img {
@@ -11,6 +12,7 @@ img {
 }
 
 body {
+  margin: 0 auto;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -20,20 +22,13 @@ body {
   align-items: flex-start;
 }
 
-.skills,
-.languages,
-.work-experience,
-.contacts,
-.education,
-.projects,
-.container {
-  padding: 20px;
-}
-
 main {
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  background: rgb(221, 237, 237);
 }
 
 .container {
@@ -53,8 +48,8 @@ hr {
 footer {
   display: flex;
   flex-direction: row;
-
-  justify-content: flex-start;
+  width: 100%;
+  justify-content: center;
 }
 
 .footer-text {
@@ -77,4 +72,45 @@ footer {
 .cv-photo {
   width: 113px;
   height: 150px;
+}
+
+nav {
+  width: 100%;
+}
+
+.header__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  min-height: 32px;
+}
+
+.header__list li {
+  margin-right: 24px;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(73, 73, 73);
+  transition: 0.2s all ease-in;
+}
+
+li a:hover {
+  color: black;
+}
+
+.contacts-education-experience {
+  margin-right: 30px;
+}
+
+.skills-and-languages {
+  margin-left: 30px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
