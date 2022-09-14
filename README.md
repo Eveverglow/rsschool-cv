@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://Eveverglow.github.io/rsschool-cv/cv
+https://github.com/Eveverglow/rsschool-cv/blob/gh-pages/cv.md
